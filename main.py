@@ -72,7 +72,7 @@ def detect(real_image):
     return image_with_lines
 
 def main():
-    video_path = 'input3.mp4'
+    video_path = 'input1.mp4'
     video = cv.VideoCapture(video_path)
     length = int(video.get(cv.CAP_PROP_FRAME_COUNT))
     input_frames_path = 'input_frames/'
